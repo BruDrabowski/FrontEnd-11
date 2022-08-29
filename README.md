@@ -1,4 +1,7 @@
 # FrontEnd-11
+
+### This project refers to the Versioning Class in wich we learnt some basic commands for Git and GitHub
+
 ## Comandos no Git
 ### git init
  - criar repositório local
