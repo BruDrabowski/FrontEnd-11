@@ -18,16 +18,16 @@ else{
     console.log("cadastro não permitido pela idade!!!")
 }
 
-let númeroDeParticipantes = 5
+let númeroDeParticipantes = 102
 
-for (let contador = 1; contador < 100; contador++)
+for (let contador = 1; contador <= númeroDeParticipantes ; contador++)
 {
-    if (contador <= 100)
+    if (contador <= 100){
     console.log(`${contador}`)
-   }
-    else if(contador < 100){
-    console.log("cadastro concluído!")
-   }
-    else{
-    console.log("limite de participantes excedido!")
+   
+    }
 }
+
+else (contador > 100); {
+    console.log("limite de participantes excedido!")
+    }
