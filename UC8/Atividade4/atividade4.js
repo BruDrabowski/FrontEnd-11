@@ -14,7 +14,9 @@ else{
 
 //exibir lista de participantes
 
-for (let contador = 1; contador <= 100 ; contador++)
+let numeroDeParticipantes
+
+for (let contador = 1; contador <= numeroDeParticipantes ; contador++)
 {
     if (contador <= 100){
     console.log(`${contador}`)
