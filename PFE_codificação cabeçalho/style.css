@@ -1,0 +1,22 @@
+/*css reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body a{
+    color: #979696;
+}
+
+header{
+    
+    height: 230px;
+    width: 1920px;
+}
+
+.container-grid {
+
+    width: 1520px;
+    margin: 0 auto;
+}
