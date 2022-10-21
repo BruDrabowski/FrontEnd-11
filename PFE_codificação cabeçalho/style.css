@@ -1,5 +1,6 @@
 /*css reset*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +18,7 @@ header{
 
 .container-grid {
     display: flex ;
-    justify-content:space-between;  ;
+    justify-content:space-between; 
     width: 1520px;
     margin: 0 auto;
 }
@@ -32,6 +33,7 @@ header{
 .menu a{
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 24 px;
 }
 
 .menu {
@@ -55,7 +57,10 @@ header{
 .superioraomenu a{
     
     text-decoration: none;
+    font-size: 24px;
+    
 }
+
 
 .lgo {
     justify-content: left;
@@ -63,12 +68,48 @@ header{
 
 .banner{
     height:668px;
-    background-image: url(Group\ 12.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover
+    background-image: url(imgbanner.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
 }
 .banner h1{
     font-family: noto sans "";
     font-size: 64px;
+}
+
+.conteudo-banner{
+    width: 652px;
+    height: 558px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo-banner p{
+    color:black;
+    font-family: "noto sans jp" ;
+    font-size: 64px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+
+.conteudo-banner a{
+    color:white;
+    font-family:"noto sans jp";
+    font-size: 24px;
+    padding: 15px;
+    background-color: black;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.posicionamento-banner{
+    display:flex;
+    justify-content: flex-end;
+    height:100%;
+    
+
 }
