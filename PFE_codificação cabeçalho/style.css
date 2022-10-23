@@ -113,3 +113,14 @@ header{
     
 
 }
+
+.promoções{
+    height: 389px;
+}
+
+.posicionamento-promoções{
+    height:100%
+}
+.container{
+    max-width: 1520px;
+}
