@@ -72,10 +72,12 @@ header{
     background-repeat:no-repeat;
     background-position:center;
     background-size:cover;
+    
 }
 .banner h1{
     font-family: noto sans "";
     font-size: 64px;
+    
 }
 
 .conteudo-banner{
@@ -83,8 +85,8 @@ header{
     height: 558px;
     display:flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    align-items:center;
+    justify-content:space-between ;
 }
 
 .conteudo-banner p{
@@ -93,7 +95,13 @@ header{
     font-size: 64px;
     text-shadow: 0.1em 0.1em 0.2em black;
     text-transform: uppercase;
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-right: 300px;
+    width: fit-content;
+    <viewport-length>:
+    
+    
+   
 }
 
 .conteudo-banner a{
